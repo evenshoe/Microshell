@@ -81,7 +81,7 @@ int main()
         if (strcmp(args[0], "help") == 0){
 
             printf("Projekt Microshell\nAutor: Agata Parzybut\n");
-            printf("\nProgram obsluguje polecenia\ncd\nexit\nhelp\noraz polecenia z fork() i exec*()\n");
+            printf("\nProgram obsluguje polecenia\ncd\ncp\necho\nexit\nhelp\nhistory\ntouch\noraz polecenia z fork() i exec*()\n");
 
         }
         else if(strcmp(args[0], "exit") == 0){
